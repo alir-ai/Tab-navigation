@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="section_tabs">
-        <h3>Pure CSS Tabs</h3>
-        <input type="radio" name="radio" id="Home" hidden>
-        <input type="radio" name="radio" id="Blog" hidden>
-        <input type="radio" name="radio" id="Code" hidden>
-        <input type="radio" name="radio" id="Help" hidden>
-        <input type="radio" name="radio" id="About" hidden>
-        <nav>
-            <label for="Home">Home</label>
-            <label for="Blog">Blog</label>
-            <label for="Code">Code</label>
-            <label for="Help">Help</label>
-            <label for="About">About</label>
-        </nav>
+      <h3>Pure CSS Tabs</h3>
+      <input type="radio" name="radio" id="Home" hidden checked />
+      <input type="radio" name="radio" id="Blog" hidden />
+      <input type="radio" name="radio" id="Code" hidden />
+      <input type="radio" name="radio" id="Help" hidden />
+      <input type="radio" name="radio" id="About" hidden />
+      <nav>
+        <label for="Home" class="Home">Home</label>
+        <label for="Blog" class="Blog">Blog</label>
+        <label for="Code" class="Code">Code</label>
+        <label for="Help" class="Help">Help</label>
+        <label for="About" class="About">About</label>
+        <div class="active_slide"></div>
+      </nav>
+
+      <div class="content_tabs">
+        <div class="content content_home">
+          <h4>This is a Home content</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            aliquid voluptatibus nisi ut repellendus consequatur expedita alias!
+            Nobis, vero deserunt eaque provident quaerat numquam magnam, dicta,
+            quas facere molestias consequatur.
+          </p>
+        </div>
+        <div class="content content_blog">
+          <h4>This is a Blog content</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            aliquid voluptatibus nisi ut repellendus consequatur expedita alias!
+            Nobis, vero deserunt eaque provident quaerat numquam magnam, dicta,
+            quas facere molestias consequatur.
+          </p>
+        </div>
+        <div class="content content_code">
+          <h4>This is a Code content</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            aliquid voluptatibus nisi ut repellendus consequatur expedita alias!
+            Nobis, vero deserunt eaque provident quaerat numquam magnam, dicta,
+            quas facere molestias consequatur.
+          </p>
+        </div>
+        <div class="content content_help">
+          <h4>This is a Help content</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            aliquid voluptatibus nisi ut repellendus consequatur expedita alias!
+            Nobis, vero deserunt eaque provident quaerat numquam magnam, dicta,
+            quas facere molestias consequatur.
+          </p>
+        </div>
+        <div class="content content_about">
+          <h4>This is a About content</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            aliquid voluptatibus nisi ut repellendus consequatur expedita alias!
+            Nobis, vero deserunt eaque provident quaerat numquam magnam, dicta,
+            quas facere molestias consequatur.
+          </p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
